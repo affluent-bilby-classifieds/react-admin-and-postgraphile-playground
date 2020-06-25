@@ -80,7 +80,7 @@ psql --username=postgres
 ```
 
 ```
-fruty=# create database menudb;
+postgres=# create database menudb;
 CREATE DATABASE
 ```
 
