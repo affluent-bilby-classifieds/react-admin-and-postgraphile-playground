@@ -32,7 +32,7 @@ nvm use v12.10.0
 
 ## Getting started
 
-Git clone this project a working directory, next:
+Git clone this project to a working directory, next:
 
 ```
 sudo apt-get install jq -y
