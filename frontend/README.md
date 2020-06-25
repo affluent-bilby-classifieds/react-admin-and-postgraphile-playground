@@ -3,8 +3,8 @@
 ## Getting started
 
 ```
-$ yarn install
-$ yarn run start
+$ npm  install
+$ npm start
 ```
 
 Open your browser on http://localhost:3000
