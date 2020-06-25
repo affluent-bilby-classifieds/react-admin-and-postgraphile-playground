@@ -1,12 +1,12 @@
 import React from 'react';
-import { List, Datagrid, Edit, Create, SimpleForm, DateField, TextField, EditButton, TextInput } from 'react-admin';
+import { List, Datagrid, Edit, Create, SimpleForm, TextField, EditButton, TextInput } from 'react-admin';
 
 export const ContactList = (props) => (
     <List {...props}>
         <Datagrid>
             <TextField source="email" />
             <TextField source="firstname" />
-            <DateField source="lastname" />
+            <TextField source="lastname" />
             <EditButton basePath="/contacts" />
         </Datagrid>
     </List>
