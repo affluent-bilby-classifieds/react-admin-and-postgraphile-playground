@@ -14,7 +14,7 @@ This project is based on:
 - [Docker Compose](https://docs.docker.com/compose/) (version `1.22.0`)
 - [nodejs](https://nodejs.org/en/) (version `v12.10.0`)
 
-Install nodejs from [nodesource] (https://github.com/nodesource/distributions/blob/master/README.md)
+Install nodejs from [nodesource](https://github.com/nodesource/distributions/blob/master/README.md)
 
 [Homebrew](https://brew.sh/index_fr) instructions:
 
