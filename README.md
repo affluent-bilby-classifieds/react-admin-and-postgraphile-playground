@@ -46,6 +46,6 @@ You will see something like this:
 
 
 You can browse in database with [graphiql](https://github.com/graphql/graphiql) on this page: http://127.0.0.1:5000/graphiql
-(or the ip of our VM)
+(or the ip of your VM)
 
 Now that the backend has been started, go to [`frontend/`](frontend/) to start the « Contact Web Frontend ».
