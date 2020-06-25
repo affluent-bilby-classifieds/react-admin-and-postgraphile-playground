@@ -165,12 +165,19 @@ Mexican Soda", "category": "Drinks"}
 (34 rows)
 
 ```
+
+# Add a boolean field so that a menu item can be enabled or disabled
+```
+menudb=# ALTER TABLE menu
+menudb-# ADD COLUMN "enabled" BOOLEAN DEFAULT TRUE;
+ALTER TABLE
+```
+
 Don't forget to quit: 
 
 ```
 \q
 ```
-# Add a boolean field so that a menu item can be enabled or disabled
 
 # Add the code to view and edit the menu database to react admin
 
