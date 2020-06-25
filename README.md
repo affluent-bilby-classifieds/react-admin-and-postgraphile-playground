@@ -26,7 +26,9 @@ restart your terminal or ssh session then enter:
 ```
 nvm install v12.10.0
 ```
-
+```
+nvm use v12.10.0
+```
 
 ## Getting started
 
