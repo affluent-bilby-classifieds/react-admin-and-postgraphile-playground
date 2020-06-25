@@ -16,12 +16,6 @@ This project is based on:
 
 Install nodejs from [nodesource](https://github.com/nodesource/distributions/blob/master/README.md)
 
-[Homebrew](https://brew.sh/index_fr) instructions:
-
-```sh
-$ brew cask install docker
-$ brew install git node yarn
-```
 
 ## Getting started
 
