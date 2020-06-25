@@ -1,5 +1,7 @@
 # React-Admin and  Postgraphile playground
 
+We use Ubuntu 20.04 as a dev environment.
+
 This project is based on:
 
 - [postgraphile](https://www.graphile.org/postgraphile/)
@@ -11,6 +13,8 @@ This project is based on:
 - [Docker Engine](https://docs.docker.com/engine/) (version `18.06.1-ce`)
 - [Docker Compose](https://docs.docker.com/compose/) (version `1.22.0`)
 - [nodejs](https://nodejs.org/en/) (version `v12.10.0`)
+
+Install nodejs from [nodesource] (https://github.com/nodesource/distributions/blob/master/README.md)
 
 [Homebrew](https://brew.sh/index_fr) instructions:
 
