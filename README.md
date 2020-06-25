@@ -1,6 +1,6 @@
 # React-Admin and  Postgraphile playground
 
-We use Ubuntu 20.04 as a dev environment.
+We use Ubuntu 20.04 as a dev environment. We also run virtual-box with Ubuntu 20.04 as a guest for a testing environment. How you setup your environment is a matter of personal preference. 
 
 This project is based on:
 
