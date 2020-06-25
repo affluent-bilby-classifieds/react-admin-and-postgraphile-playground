@@ -16,12 +16,12 @@ This project is based on:
 
 Install nodejs from [nodesource](https://github.com/nodesource/distributions/blob/master/README.md)
 
-Then we need the [node version manager](https://github.com/nvm-sh/nvm/blob/master/README.md).
+Then we need the [node version manager](https://github.com/nvm-sh/nvm/blob/master/README.md):
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
-restart your terminal or ssh session.
+restart your terminal or ssh session then enter:
 
 ```
 nvm install v12.10.0
