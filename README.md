@@ -21,6 +21,11 @@ Then we need the [node version manager](https://github.com/nvm-sh/nvm/blob/maste
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
+restart your terminal or ssh session.
+
+```
+nvm install v12.10.0
+```
 
 
 ## Getting started
