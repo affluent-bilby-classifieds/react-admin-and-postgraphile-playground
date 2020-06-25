@@ -37,6 +37,10 @@ Git clone this project a working directory, next:
 ```
 $ ./scripts/up.sh
 ```
+You will see something like this:
+
+![alt text](http://url/to/img.png)
+
 
 You can browse in database with [graphiql](https://github.com/graphql/graphiql) on this page: http://127.0.0.1:5000/graphiql
 
