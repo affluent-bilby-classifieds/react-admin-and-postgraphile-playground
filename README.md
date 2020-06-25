@@ -49,3 +49,17 @@ You can browse in database with [graphiql](https://github.com/graphql/graphiql) 
 (or the ip of your VM)
 
 Now that the backend has been started, go to [`frontend/`](frontend/) to start the « Contact Web Frontend ».
+
+# Dummy Contact Web Frontend based on React-Admin
+
+## Getting started
+
+```
+$ npm install
+$ npm start
+```
+
+Open your browser on http://localhost:3000
+
+# Install the menu database
+
