@@ -35,6 +35,9 @@ nvm use v12.10.0
 Git clone this project a working directory, next:
 
 ```
+sudo apt-get install jq -y
+```
+```
 $ ./scripts/up.sh
 ```
 You will see something like this:
