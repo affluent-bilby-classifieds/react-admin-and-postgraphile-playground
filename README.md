@@ -85,7 +85,7 @@ CREATE DATABASE
 ```
 
 ```
-postgres=# grant all privileges on database menudb to fruty;
+postgres=# grant all privileges on database menudb to postgres;
 GRANT
 ```
 ```
@@ -130,10 +130,10 @@ postgres=# \l
 -----------+-------+----------+------------+------------+-------------------
  postgres  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
  menudb    | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
- template0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/fruty         +
-           |       |          |            |            | fruty=CTc/fruty
- template1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/fruty         +
-           |       |          |            |            | fruty=CTc/fruty
+ template0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres         +
+           |          |          |            |            | fruty=CTc/postgres
+ template1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres         +
+           |          |          |            |            | fruty=CTc/postgres
 (4 rows)
 
 ```
@@ -145,7 +145,7 @@ menudb=# \dt
        List of relations
  Schema | Name | Type  | Owner 
 --------+------+-------+-------
- public | menu | table | fruty
+ public | menu | table | postgres
 (1 row)
 ```
 
