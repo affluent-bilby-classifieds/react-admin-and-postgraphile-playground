@@ -124,15 +124,15 @@ psql --username=postgres
 
 
 ```
-fruty=# \l
+postgres=# \l
                              List of databases
    Name    | Owner | Encoding |  Collate   |   Ctype    | Access privileges 
 -----------+-------+----------+------------+------------+-------------------
- postgres     | fruty | UTF8     | en_US.utf8 | en_US.utf8 | 
- menudb    | fruty | UTF8     | en_US.utf8 | en_US.utf8 | 
- template0 | fruty | UTF8     | en_US.utf8 | en_US.utf8 | =c/fruty         +
+ postgres  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
+ menudb    | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
+ template0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/fruty         +
            |       |          |            |            | fruty=CTc/fruty
- template1 | fruty | UTF8     | en_US.utf8 | en_US.utf8 | =c/fruty         +
+ template1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/fruty         +
            |       |          |            |            | fruty=CTc/fruty
 (4 rows)
 
