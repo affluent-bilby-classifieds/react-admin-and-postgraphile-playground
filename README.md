@@ -42,9 +42,10 @@ $ ./scripts/up.sh
 ```
 You will see something like this:
 
-![building](https://github.com/affluent-bilby-classifieds/react-admin-and-postgraphile-playground/blob/master/Screenshot%20from%202020-06-25%2010-11-25.png)
+![building](https://github.com/affluent-bilby-classifieds/react-admin-and-postgraphile-playground/blob/master/Screenshot%20from%202020-06-25%2010-16-28.png)
 
 
 You can browse in database with [graphiql](https://github.com/graphql/graphiql) on this page: http://127.0.0.1:5000/graphiql
+(or the ip of our VM)
 
 Now that the backend has been started, go to [`frontend/`](frontend/) to start the « Contact Web Frontend ».
