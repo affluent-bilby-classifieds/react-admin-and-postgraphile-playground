@@ -42,7 +42,7 @@ $ ./scripts/up.sh
 ```
 You will see something like this:
 
-![alt text](http://url/to/img.png)
+![building](https://github.com/affluent-bilby-classifieds/react-admin-and-postgraphile-playground/blob/master/Screenshot%20from%202020-06-25%2010-11-25.png)
 
 
 You can browse in database with [graphiql](https://github.com/graphql/graphiql) on this page: http://127.0.0.1:5000/graphiql
