@@ -91,7 +91,7 @@ GRANT
 ```
 \q
 ```
-now back in bash we enter the following:
+now back in bash (but still inside the docker container) we enter the following:
 
 
 ```
@@ -125,15 +125,16 @@ psql --username=postgres
 
 ```
 postgres=# \l
-                             List of databases
-   Name    | Owner | Encoding |  Collate   |   Ctype    | Access privileges 
------------+-------+----------+------------+------------+-------------------
+                                 List of databases
+   Name    |  Owner   | Encoding |  Collate   |   Ctype    |   Access privileges   
+-----------+----------+----------+------------+------------+-----------------------
+ menudb    | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =Tc/postgres         +
+           |          |          |            |            | postgres=CTc/postgres
  postgres  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
- menudb    | postgres | UTF8     | en_US.utf8 | en_US.utf8 | 
- template0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres         +
-           |          |          |            |            | fruty=CTc/postgres
- template1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres         +
-           |          |          |            |            | fruty=CTc/postgres
+ template0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
+           |          |          |            |            | postgres=CTc/postgres
+ template1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +
+           |          |          |            |            | postgres=CTc/postgres
 (4 rows)
 
 ```
@@ -142,9 +143,9 @@ postgres=# \l
 postgres=# \c menudb
 You are now connected to database "menudb" as user "postgres".
 menudb=# \dt
-       List of relations
- Schema | Name | Type  | Owner 
---------+------+-------+-------
+        List of relations
+ Schema | Name | Type  |  Owner   
+--------+------+-------+----------
  public | menu | table | postgres
 (1 row)
 ```
