@@ -170,6 +170,7 @@ Don't forget to quit:
 ```
 \q
 ```
+# Add a boolean field so that a menu item can be enabled to disabled
 
-
+# Add the code to view and edit the menu database to react admin
 
