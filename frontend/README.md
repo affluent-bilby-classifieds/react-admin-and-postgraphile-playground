@@ -9,11 +9,5 @@ $ npm start
 
 Open your browser on http://localhost:3000
 
-## Linter
+# Install the menu database
 
-You can launch linter:
-
-```
-$ yarn run lint
-$ yarn run lint:css
-```
