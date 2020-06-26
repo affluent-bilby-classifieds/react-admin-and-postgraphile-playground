@@ -27,6 +27,7 @@ CREATE TABLE public.menu (
     category       VARCHAR(255),
     price          NUMERIC(8, 2),
     desc1          VARCHAR(255),
+    isenabled      BOOLEAN NOT NULL DEFAULT TRUE,   
     created_at     TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
