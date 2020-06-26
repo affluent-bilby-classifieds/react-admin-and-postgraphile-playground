@@ -9,6 +9,10 @@ CREATE TABLE public.contacts (
     email          VARCHAR(255) NOT NULL,
     firstname      VARCHAR(255),
     lastname       VARCHAR(255),
+    website        VARCHAR(255),
+    streetaddress  VARCHAR(255),
+    phone          VARCHAR(255),
+    companyname    VARCHAR(255),
     created_at     TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
