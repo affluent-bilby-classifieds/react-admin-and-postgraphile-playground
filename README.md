@@ -181,3 +181,6 @@ Don't forget to quit:
 
 # Add the code to view and edit the menu database to react admin
 
+Please note that I was unable to load the menu table from the menudb into React Admin.
+I have instead created a new table by modifying /sqls/seed.sql
+
