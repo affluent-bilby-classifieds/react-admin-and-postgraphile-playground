@@ -13,4 +13,4 @@ INSERT INTO public.contacts
         'firstname' || to_char(seqnum, 'FM0000'),
         'lastname' || to_char(seqnum, 'FM0000')
     FROM 
-        GENERATE_SERIES(1, 50) seqnum;
+        GENERATE_SERIES(1, 2) seqnum;
