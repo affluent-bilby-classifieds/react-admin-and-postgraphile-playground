@@ -18,4 +18,24 @@ CREATE TABLE public.contacts (
 
 CREATE INDEX contacts_email_index ON public.contacts (email);
 
+
+DROP TABLE IF EXISTS public.menu CASCADE;
+
+CREATE TABLE public.menu (
+    id             SERIAL PRIMARY KEY,
+    title          VARCHAR(255) NOT NULL,
+    category       VARCHAR(255),
+    price          NUMERIC(8, 2),
+    desc1          VARCHAR(255),
+    created_at     TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+
+
+
+
+
+
 SET client_min_messages = INFO;
