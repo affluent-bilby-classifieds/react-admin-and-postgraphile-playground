@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Datagrid, Edit, Create, SimpleForm, TextField, EditButton, TextInput } from 'react-admin';
+import { List, Datagrid, Edit, Create, SimpleForm, TextField, EditButton, TextInput, BooleanInput, BooleanField } from 'react-admin';
 
 export const MenuData = (props) => (
     <List {...props}>
@@ -9,8 +9,8 @@ export const MenuData = (props) => (
             <TextField source="category" />
             <TextField source="price" />
             <TextField source="desc1" />
-            <TextField source="image" />
-            
+            {/* <TextField source="image" /> */}
+            <BooleanField source="isenabled" />
             
             <EditButton basePath="/menu" />
         </Datagrid>
@@ -32,7 +32,7 @@ export const MenuEdit = (props) => (
             <TextInput source="price" />
             <TextInput disabledsource="image" />
             <TextInput source="desc1" />
-            
+            <BooleanInput label="Enabled" source="isenabled" />
             
         </SimpleForm>
     </Edit>
