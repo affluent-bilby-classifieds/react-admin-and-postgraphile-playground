@@ -6,7 +6,7 @@ export const MenuData = (props) => (
         <Datagrid>
             
             <TextField source="title" />
-            <TextField source="category" />
+            <TextField source="category_id" />
             <TextField source="price" />
             <TextField source="desc1" />
             {/* <TextField source="image" /> */}
