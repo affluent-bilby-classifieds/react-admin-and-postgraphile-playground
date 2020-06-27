@@ -182,5 +182,7 @@ Don't forget to quit:
 # Add the code to view and edit the menu database to react admin
 
 Please note that I was unable to load the menu table from the menudb into React Admin.
-I have instead created a new table by modifying /sqls/seed.sql
+I have instead created a new table (menu) by modifying /sqls/seed.sql
+I have also created a table called menucategories so that we can create and modify each category for the menu. This is moving away from a flatfile database (json)
+and becoming a normalized relational database. We still need to find a way (such as writing a script) to translate our json menu into the postgres relational database. 
 
