@@ -5,6 +5,7 @@ import { useApolloClient } from '@apollo/react-hooks'
 import pgDataProvider from 'ra-postgraphile'
 import { ContactList, ContactEdit, ContactCreate } from './Contacts'
 import { MenuData, MenuEdit, CreateMenuItem } from './Menu'
+import { CatData, CatEdit, CreateCatItem } from './MenuCategory'
 import ApolloClient from './Apollo';
 /* import { HttpError } from 'react-admin'; */
 
@@ -36,6 +37,18 @@ const ReactAdminWrapper = () => {
                      create={CreateMenuItem} 
                  
                 />
+
+              <Resource 
+                     name="menucategories"
+                     list={CatData}
+                     edit={CatEdit}
+                     create={CreateCatItem} 
+                 
+                />
+
+
+
+
             </Admin>
         )
 
