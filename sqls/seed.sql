@@ -24,10 +24,19 @@ DROP TABLE IF EXISTS public.menu CASCADE;
 CREATE TABLE public.menu (
     id             SERIAL PRIMARY KEY,
     title          VARCHAR(255) NOT NULL,
-    category       VARCHAR(255),
+    category_id    INT,
     price          NUMERIC(8, 2),
     desc1          VARCHAR(255),
     isenabled      BOOLEAN NOT NULL DEFAULT TRUE,   
+    created_at     TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+
+DROP TABLE IF EXISTS public.menucategories CASCADE;
+
+CREATE TABLE public.menucategories (
+    id             SERIAL PRIMARY KEY,
+    catname        VARCHAR(255) NOT NULL,
     created_at     TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
