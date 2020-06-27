@@ -1,5 +1,6 @@
 import React from 'react';
 import { List, Datagrid, Edit, Create, SimpleForm, TextField, EditButton, TextInput, BooleanInput, BooleanField } from 'react-admin';
+import { AutocompleteInput } from 'react-admin';
 
 export const MenuData = (props) => (
     <List {...props}>
@@ -10,7 +11,7 @@ export const MenuData = (props) => (
             <TextField source="price" />
             <TextField source="desc1" />
             {/* <TextField source="image" /> */}
-            <BooleanField source="isenabled" />
+            <BooleanField label="enabled" source="isenabled" />
             
             <EditButton basePath="/menu" />
         </Datagrid>
@@ -27,8 +28,13 @@ export const MenuEdit = (props) => (
             <TextInput disabled source="id" />
             
             <TextInput source="title" />
-           
-            <TextInput source="category" />
+
+    <AutocompleteInput source="category_id" choices={[
+    { id: '1', name: 'Burgers' },
+    { id: '2', name: 'Wraps' },
+   
+]} />
+            {/* <TextInput source="category_id" /> */}
             <TextInput source="price" />
             <TextInput disabledsource="image" />
             <TextInput source="desc1" />
@@ -45,7 +51,13 @@ export const CreateMenuItem = (props) => (
             
             <TextInput source="title" />
            
-            <TextInput source="category" />
+            <AutocompleteInput source="category_id" choices={[
+    { id: '1', name: 'Burgers' },
+    { id: '2', name: 'Wraps' },
+   
+]} />
+
+            {/* <TextInput source="category_id" /> */}
             <TextInput source="price" />
           {/*   <TextInput disabledsource="image" /> */}
             <TextInput source="desc1" />
