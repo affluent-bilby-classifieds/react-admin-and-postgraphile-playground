@@ -29,6 +29,9 @@ export const MenuEdit = (props) => (
             
             <TextInput source="title" />
 
+{/* //These are currently hardcoded see: https://marmelab.com/react-admin/Inputs.html
+//We want to grab the values from the database instead */}
+
     <AutocompleteInput source="category_id" choices={[
     { id: '1', name: 'Burgers' },
     { id: '2', name: 'Wraps' },
