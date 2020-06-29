@@ -14,3 +14,15 @@ INSERT INTO public.contacts
         'lastname' || to_char(seqnum, 'FM0000')
     FROM 
         GENERATE_SERIES(1, 2) seqnum;
+                                                       
+TRUNCATE public.menu CASCADE;
+
+INSERT INTO public.menucategories
+    (
+        catname
+    )
+    SELECT
+        ('category' || to_char(seqnum, 'FM0000'))
+        
+    FROM 
+        GENERATE_SERIES(1, 3) seqnum;        
