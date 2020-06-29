@@ -33,8 +33,9 @@ export const MenuEdit = (props) => (
 //We want to grab the values from the database instead */}
 
     <AutocompleteInput source="category_id" choices={[
-    { id: '1', name: 'Burgers' },
-    { id: '2', name: 'Wraps' },
+    { id: '1', name: 'category0001' },
+    { id: '2', name: 'category0002' },
+    { id: '3', name: 'category0003' },
    
 ]} />
             {/* <TextInput source="category_id" /> */}
@@ -55,8 +56,9 @@ export const CreateMenuItem = (props) => (
             <TextInput source="title" />
            
             <AutocompleteInput source="category_id" choices={[
-    { id: '1', name: 'Burgers' },
-    { id: '2', name: 'Wraps' },
+    { id: '1', name: 'category0001' },
+    { id: '2', name: 'category0002' },
+    { id: '3', name: 'category0003' },
    
 ]} />
 
