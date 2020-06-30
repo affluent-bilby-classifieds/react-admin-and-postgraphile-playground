@@ -102,6 +102,8 @@ apk add jq
 cd /sqls/json
 ```
 
+Please note we are no longer using jsonb so I will be removing these instructions. I ended up creating the database through the seed.sql file.
+
 Now we are loading the JSON into a Postgres JSONB column all thanks to the guide from: [(@kiwicopple)](https://dev.to/kiwicopple/loading-json-into-postgres-2l28)
 
 ```
