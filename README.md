@@ -32,7 +32,12 @@ nvm use v12.10.0
 
 ## Getting started
 
-Git clone this project to a working directory, next:
+Git clone this project to a working directory
+```
+git clone https://github.com/affluent-bilby-classifieds/react-admin-and-postgraphile-playground.git
+```
+
+next:
 
 ```
 sudo apt-get install jq -y
