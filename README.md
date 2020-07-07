@@ -10,8 +10,8 @@ This project is based on:
 
 ## Prerequisites
 
-- [Docker Engine](https://docs.docker.com/engine/) (version `18.06.1-ce`)
-- [Docker Compose](https://docs.docker.com/compose/) (version `1.22.0`)
+- [Docker Engine](https://docs.docker.com/engine/) (version `19.03.11`)
+- [Docker Compose](https://docs.docker.com/compose/) (version `1.25.0`)
 - [nodejs](https://nodejs.org/en/) (version `v12.10.0`)
 
 Install nodejs 12.x from [nodesource](https://github.com/nodesource/distributions/blob/master/README.md)
